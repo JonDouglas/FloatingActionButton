@@ -57,8 +57,8 @@ namespace Sample
                 _fab.FabDrawable = Resources.GetDrawable(Resource.Drawable.ic_content_new);
             };
 
-            var oraange = FindViewById<View>(Resource.Id.orangeButton);
-            oraange.Click += (s, e) =>
+            var orange = FindViewById<View>(Resource.Id.orangeButton);
+            orange.Click += (s, e) =>
             {
                 var holoOrange = Resources.GetColor(Android.Resource.Color.HoloOrangeLight);
                 _fab.FabColor = holoOrange;
@@ -75,19 +75,43 @@ namespace Sample
                 _fab.FabDrawable = Resources.GetDrawable(Resource.Drawable.ic_content_new);
             };
 
-            var hide = FindViewById<Button>(Resource.Id.hideButton);
-            hide.Click += (s, e) =>
+            var darkred = FindViewById<View>(Resource.Id.darkredButton);
+            darkred.Click += (s, e) =>
             {
-                _fab.Hide(true);
-                ActionBar.Hide();
+                var holodarkRed = Resources.GetColor(Android.Resource.Color.HoloRedDark);
+                _fab.FabColor = holodarkRed;
+                ActionBar.SetBackgroundDrawable(new ColorDrawable(holodarkRed));
+                _fab.FabDrawable = Resources.GetDrawable(Resource.Drawable.ic_content_new);
             };
 
-            var show = FindViewById<Button>(Resource.Id.showButton);
-            show.Click += (s, e) =>
+            var darkblue = FindViewById<View>(Resource.Id.darkblueButton);
+            darkblue.Click += (s, e) =>
             {
-                _fab.Show(false);
-                ActionBar.Show();
+                var holodarkBlue = Resources.GetColor(Android.Resource.Color.HoloBlueDark);
+                _fab.FabColor = holodarkBlue;
+                ActionBar.SetBackgroundDrawable(new ColorDrawable(holodarkBlue));
+                _fab.FabDrawable = Resources.GetDrawable(Resource.Drawable.ic_content_new);
             };
+
+            var darkgreen = FindViewById<View>(Resource.Id.darkgreenButton);
+            darkgreen.Click += (s, e) =>
+            {
+                var holodarkGreen = Resources.GetColor(Android.Resource.Color.HoloGreenDark);
+                _fab.FabColor = holodarkGreen;
+                ActionBar.SetBackgroundDrawable(new ColorDrawable(holodarkGreen));
+                _fab.FabDrawable = Resources.GetDrawable(Resource.Drawable.ic_content_new);
+            };
+
+            var darkorange = FindViewById<View>(Resource.Id.darkorangeButton);
+            darkorange.Click += (s, e) =>
+            {
+                var holodarkOrange = Resources.GetColor(Android.Resource.Color.HoloOrangeDark);
+                _fab.FabColor = holodarkOrange;
+                ActionBar.SetBackgroundDrawable(new ColorDrawable(holodarkOrange));
+                _fab.FabDrawable = Resources.GetDrawable(Resource.Drawable.ic_content_new);
+            };
+
+
         }
     }
 }

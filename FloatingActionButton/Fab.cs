@@ -134,17 +134,5 @@ namespace FloatingActionButton
 
         }
 
-        public void Show(bool hide)
-        {
-            if (_hidden != hide)
-            {
-                _hidden = hide;
-
-                var hideAnimation = ObjectAnimator.OfFloat(this, "Y", _currentY);
-                hideAnimation.SetInterpolator(new DecelerateInterpolator());
-                hideAnimation.Start();
-                _hidden = false;
-            }
-        }
     }
 }

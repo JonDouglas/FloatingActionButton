@@ -90,14 +90,23 @@ namespace Sample
 			// aapt resource value: 0x7f070000
 			public const int blueButton = 2131165184;
 			
+			// aapt resource value: 0x7f070005
+			public const int darkblueButton = 2131165189;
+			
+			// aapt resource value: 0x7f070006
+			public const int darkgreenButton = 2131165190;
+			
 			// aapt resource value: 0x7f070007
-			public const int fabbutton = 2131165191;
+			public const int darkorangeButton = 2131165191;
+			
+			// aapt resource value: 0x7f070008
+			public const int darkredButton = 2131165192;
+			
+			// aapt resource value: 0x7f070009
+			public const int fabbutton = 2131165193;
 			
 			// aapt resource value: 0x7f070002
 			public const int greenButton = 2131165186;
-			
-			// aapt resource value: 0x7f070005
-			public const int hideButton = 2131165189;
 			
 			// aapt resource value: 0x7f070003
 			public const int orangeButton = 2131165187;
@@ -107,9 +116,6 @@ namespace Sample
 			
 			// aapt resource value: 0x7f070004
 			public const int redButton = 2131165188;
-			
-			// aapt resource value: 0x7f070006
-			public const int showButton = 2131165190;
 			
 			static Id()
 			{
@@ -145,9 +151,6 @@ namespace Sample
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
-			
-			// aapt resource value: 0x7f040003
-			public const int action_settings = 2130968579;
 			
 			// aapt resource value: 0x7f040002
 			public const int app_name = 2130968578;

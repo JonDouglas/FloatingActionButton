@@ -54,26 +54,38 @@
                 android:id="@+id/redButton"
                 android:layout_margin="8dp"
                 android:background="#ff4444" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_marginTop="60dp"
-            android:orientation="horizontal">
-            <Button
-                android:layout_height="60dp"
-                android:layout_width="0dp"
-                android:text="Hide FAB"
+            <View
                 android:layout_weight="1"
-                android:id="@+id/hideButton"
-                style="?android:borderlessButtonStyle" />
-            <Button
-                android:layout_height="60dp"
                 android:layout_width="0dp"
-                android:text="Show FAB"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:id="@+id/darkblueButton"
+                android:layout_margin="8dp"
+                android:background="#0099cc" />
+            <View
                 android:layout_weight="1"
-                android:id="@+id/showButton"
-                style="?android:borderlessButtonStyle" />
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:id="@+id/darkgreenButton"
+                android:layout_margin="8dp"
+                android:background="#669900" />
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:id="@+id/darkorangeButton"
+                android:layout_margin="8dp"
+                android:background="#ff8800" />
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:id="@+id/darkredButton"
+                android:layout_margin="8dp"
+                android:background="#cc0000" />
         </LinearLayout>
     </LinearLayout>
     <floatingactionbutton.Fab
